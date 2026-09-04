@@ -29,7 +29,53 @@ Tools & Technologies
 
 Data Preparation
 ===================================================================================================================================================================
-The data was prepared in 
+The data was prepared in **Power Query** before creating the dashboard.
+
+The preparation process included:
+ * Checking data quality.
+ * Handling missing/inconsistent values.
+ * Transforming columns.
+ * Checking appropriate data type.
+ * Preparing data for the Power Bi data model.
+ * Creating calculated measures using DAX.
+
+Dashboard Analysis
+===================================================================================================================================================================
+The dashboard provides analysis of churn across multiple dimensions:
+
+**Customer Demographics**
+* Gender
+* Age Group
+* Senior citizen status
+* Dependents
+
+**Customer Behavior**
+* Tenure
+* Contract type
+* Payment Method
+
+**Services**
+* Internet type
+* Online Security
+* Online backup
+* Device Protection
+* Tech Support
+* Streaming Services
+
+**Geographic Analysis**
+* State-level customer churn
+
+Key Findings 
+===================================================================================================================================================================
+Some of the main findings from the analysis include:
+* The overall customer churn rate is 25.9%.
+* Churn can be compared across different contract type.
+* Customer tenure provides an important way to examine churn behavior.
+* Churn varies across different age group and customer segments.
+* Payment method and internet service type can be analysis to identify segments with higher churn.
+* Service-level analysis helps identify customer groups that may need further investigation for retention strategies.  
+
+
 
 
 
